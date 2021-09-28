@@ -24,7 +24,7 @@ def dictionary_from_lists(keys, values):
 	return {keys[i]:values[i] for i in range(len(keys))}
 
 def get_greatest_values(dictionnary, num_values):
-	return sorted([v for v in dictionnary.values()])[:num_values]
+	return sorted([v for v in dictionnary.values()], reverse=True)[:num_values]
 
 def get_sum_values_from_key(dictionnaries, key):
 	return sum([d[key] if key in d.keys() else 0 for d in dictionnaries])
