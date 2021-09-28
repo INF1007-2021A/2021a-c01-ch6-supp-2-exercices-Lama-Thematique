@@ -1,29 +1,10 @@
 test_dictionary_from_lists (__main__.TestExercice) ... ok
 test_get_even_keys (__main__.TestExercice) ... ok
-test_get_greatest_values (__main__.TestExercice) ... FAIL
+test_get_greatest_values (__main__.TestExercice) ... ok
 test_get_sum_values_from_key (__main__.TestExercice) ... ok
 test_join_dictionaries (__main__.TestExercice) ... ok
 
-======================================================================
-FAIL: test_get_greatest_values (__main__.TestExercice)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "c:\Users\gaeta\Desktop\Syncronisation\Partage perso\Poly\INF1007\Cours1\2021a-c01-ch6-supp-2-exercices-Lama-Thematique\test_exercice.py", line 106, in test_get_greatest_values
-    self.assertListEqual(
-AssertionError: Lists differ: [[69], [69, 420, 1337]] != [[69420], [69420, 9000, 1337]]
+Ran 5 tests in 0.001s
 
-First differing element 0:
-[69]
-[69420]
-
-- [[69], [69, 420, 1337]]
-?           --
-
-+ [[69420], [69420, 9000, 1337]]
-?     +++          ++++++
- : Mauvaises valeurs maximales.
-
-----------------------------------------------------------------------
-Ran 5 tests in 0.003s
-
-FAILED (failures=1)
+OK
